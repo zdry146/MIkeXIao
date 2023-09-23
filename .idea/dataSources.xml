@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="Local rs0" uuid="f20c94c6-015d-4db6-a736-2d51b8af7a4d">
+      <driver-ref>mongo</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.dbschema.MongoJdbcDriver</jdbc-driver>
+      <jdbc-url>mongodb://mike-virtual-machine1:27017,mike-virtual-machine2:27017,mike-virtual-machine3:27017/social?replicaSet=rs0&amp;retryWrites=true&amp;w=majority&amp;wtimeoutMS=3000&amp;readConcernLevel=majority</jdbc-url>
+      <jdbc-additional-properties>
+        <property name="com.intellij.clouds.kubernetes.db.enabled" value="false" />
+      </jdbc-additional-properties>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
